@@ -53,7 +53,7 @@ ESP32
 parkinsons-kws-esp32/
 │
 ├── data/                  # Audio datasets (ignored by Git)
-│   ├── raw_audio/
+│   ├── raw_audio/         # Tentative parts
 │   └── processed/
 │
 ├── training/              # Python scripts for ML training
@@ -66,15 +66,15 @@ parkinsons-kws-esp32/
 │   ├── kws_model.tflite
 │   └── kws_model.h
 │
-├── esp32/                 # ESP32 firmware
+├── hardware/               # ESP32 firmware
 │   ├── main.ino
 │   ├── audio_capture.h
 │   ├── feature_extraction.h
 │   ├── model.h
 │   └── lcd_display.h
 │
-├── docs/                  # Documentation and diagrams
-│   ├── architecture.png
+├── documentation/          # Documentation and diagrams
+│   ├── architecture.png    # Tentative parts
 │   └── demo_notes.md
 │
 ├── .gitignore
@@ -96,5 +96,6 @@ Forking creates your own copy of this repository on GitHub.
 Clone your fork:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/parkinsons-kws-esp32.git
-cd parkinsons-kws-esp32
+git clone https://github.com/YOUR_USERNAME/entry_brainiac2026.git
+cd entry_brainiac2026.git
+
