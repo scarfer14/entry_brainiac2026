@@ -27,14 +27,15 @@ Parkinson’s disease often causes motor speech impairments, making verbal commu
 ## System Architecture
 
 Patient Voice
-↓
+     ↓
 INMP441 Microphone
-↓
+     ↓
 ESP32
-├─ Audio Capture (I2S)
-├─ Feature Extraction (MFCC)
-├─ Keyword Spotting Model
-└─ LCD Display Output
+ ├─ Audio Capture (I2S)
+ ├─ Feature Extraction (MFCC)
+ ├─ Keyword Spotting Model
+ └─ LCD Display Output
+
 
 
 ---
@@ -54,33 +55,34 @@ ESP32
 
 parkinsons-kws-esp32/
 │
-├── data/ # Audio datasets (ignored in Git)
-│ ├── raw_audio/
-│ └── processed/
+├── data/                  # Audio datasets (ignored in Git)
+│   ├── raw_audio/
+│   └── processed/
 │
-├── training/ # Python scripts for ML training
-│ ├── preprocess.py
-│ ├── model.py
-│ ├── train.py
-│ └── export_tflite.py
+├── training/              # Python scripts for ML training
+│   ├── preprocess.py
+│   ├── model.py
+│   ├── train.py
+│   └── export_tflite.py
 │
-├── model/ # Trained model files
-│ ├── kws_model.tflite
-│ └── kws_model.h
+├── model/                 # Trained model files
+│   ├── kws_model.tflite
+│   └── kws_model.h
 │
-├── esp32/ # ESP32 firmware
-│ ├── main.ino
-│ ├── audio_capture.h
-│ ├── feature_extraction.h
-│ ├── model.h
-│ └── lcd_display.h
+├── esp32/                 # ESP32 firmware
+│   ├── main.ino
+│   ├── audio_capture.h
+│   ├── feature_extraction.h
+│   ├── model.h
+│   └── lcd_display.h
 │
-├── docs/ # Documentation and diagrams
-│ ├── architecture.png
-│ └── demo_notes.md
+├── docs/                  # Documentation and diagrams
+│   ├── architecture.png
+│   └── demo_notes.md
 │
 ├── .gitignore
 └── README.md
+
 
 
 ---
