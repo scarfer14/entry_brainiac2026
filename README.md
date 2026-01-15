@@ -22,10 +22,9 @@ Parkinson’s disease often causes motor speech impairments, making verbal commu
 > **Disclaimer:**  
 > This project is intended for **educational and demonstration purposes only** and is not a medical diagnostic tool.
 
----
-
 ## System Architecture
 
+```text
 Patient Voice
      ↓
 INMP441 Microphone
@@ -35,10 +34,8 @@ ESP32
  ├─ Feature Extraction (MFCC)
  ├─ Keyword Spotting Model
  └─ LCD Display Output
+```
 
-
-
----
 
 ## Hardware Components
 
