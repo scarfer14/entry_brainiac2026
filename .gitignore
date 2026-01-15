@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Audio data (large & sensitive)
+data/raw_audio/
+data/processed/
+
+# Model outputs
+*.tflite
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
