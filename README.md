@@ -47,12 +47,12 @@ ESP32
 - Enclosure Box
 
 ---
-
 ## Repository Structure
 
+```text
 parkinsons-kws-esp32/
 │
-├── data/                  # Audio datasets (ignored in Git)
+├── data/                  # Audio datasets (ignored by Git)
 │   ├── raw_audio/
 │   └── processed/
 │
@@ -79,8 +79,7 @@ parkinsons-kws-esp32/
 │
 ├── .gitignore
 └── README.md
-
-
+```
 
 ---
 
